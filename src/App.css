@@ -152,6 +152,11 @@ p {
 }
 .bg-tr{
   background: #ffffff1a;
+  cursor: pointer;
+}
+.bg-tr:hover{
+  background-color: var(--primary);
+  color: #212429;
 }
 
 .icon {
@@ -232,18 +237,18 @@ p {
 }
 .element{
   position: absolute;
-  margin-top: -124px;
-    margin-left: 63px;
-    width: 36px;
+  margin-top: 39px;
+  width: 28px;
+  margin-right: 42px;
 }
 .width-164{
-  width: 164px;
+  width: 116px;
 }
 .element2{
   position: absolute;
-  margin-top: 61px;
-  margin-left: -100px;
-  width: 40px;
+  margin-top: 46px;
+  margin-left: -68px;
+  width: 28px;
 }
 .mt-10{
   margin-top: -10px;
@@ -255,7 +260,7 @@ p {
   padding-left: 181px !important;
 }
 .hover-asset{
-  margin-left: -165px;
+  margin-left: -117px;
   margin-top: 0px;
   position: absolute;
   transition-timing-function: ease-in;
@@ -265,6 +270,9 @@ p {
   transform: rotate(53deg);
   transition-timing-function: ease-in;
   transition: 0.2s;
+}
+.title-space{
+  margin-left: 32px;
 }
 @media (max-width: 425px) {
   .notched-corner{

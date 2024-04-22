@@ -13,7 +13,7 @@ function Footer() {
           </div>
           <div className="col-8">
             <div className="row justify-content-center">
-              <div className="col-3">
+              <div className="col-3 d-flex flex-column align-items-end">
                 <div className="rotate-img">
                   <img
                     className="width-164 "
@@ -25,7 +25,7 @@ function Footer() {
                     alt="element"
                     src="/images/hover-asset.svg"
                   />
-                  <h6 className="text-prime ms-5 ps-2 mt-0">ADMIN</h6>
+                  <h6 className="text-prime title-space mt-0 ">ADMIN</h6>
                 </div>
   
                 <img
@@ -45,7 +45,7 @@ function Footer() {
                   alt="element"
                   src="/images/footer-icon-1.svg"
                 />
-                <h6 className="ms-5 ps-2 opacity-50 text-white mt-0">OFFICER</h6>
+                <h6 className="title-space opacity-50 text-white mt-0">OFFICER</h6>
               </div>
             </div>
           </div>
