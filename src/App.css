@@ -1,0 +1,273 @@
+.App {
+  text-align: center;
+}
+:root {
+  --primary: #FFBF47;
+  }
+
+h1{
+  font-size: 22px !important;
+}
+*{
+  font-family: "Roboto Condensed", sans-serif;
+}
+body{
+  opacity: 1;
+  background-image: linear-gradient(0deg, #11174a 50%, #222757 50%);
+  background-size: 9px 9px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.color-primary{
+  background-color: var(--primary) !important;
+}
+.text-prime{
+  color: var(--primary);
+}
+.background-sec{
+  background: #FFFFFF21 !important;
+  color: var(--primary) !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input-color input{
+  background: #FFFFFF1A;
+  color: white;
+  width: 100%;
+  height: 44px;
+  border: 0;
+
+}
+.button-color{
+  background-color: #FFBF47;
+}
+.input-color img{
+  position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+input::placeholder{
+  margin-left: 1px !important;
+}
+
+div.notched-corner {
+  position: relative;
+  padding: 31px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  background: #FFFFFF08;
+  clip-path: polygon(
+    0 12%,
+    10% 0,
+    90% 0,
+    100% 12%,
+    100% 90%,
+    90% 100%,
+    6% 100%,
+    0% 90%,
+    0% 10%
+  );
+}
+
+p {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -35%);
+  font-size: 32px;
+}
+.bg-color{
+  opacity: 1;
+    background-image: linear-gradient(0deg, #11174a 50%, #222757 50%);
+    background-size: 9px 9px;
+}
+.image-bg{
+  mix-blend-mode: lighten;
+}
+
+.error-input {
+  border: 1px solid red !important;
+}
+
+.error-message {
+  color: red;
+  margin-top: -5px;
+    margin-bottom: 14px;
+}
+.table-style {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  border: 0;
+}
+
+.table-style th,
+.table-style td {
+  padding: 10px 10px 10px 60px;
+  border-bottom: 1px solid #34344a;
+}
+.tr-bg{
+  background: #FFBF0729;
+}
+
+.tr-bg tr   th{
+  color: white;
+  font-weight: 400;
+}
+.bg-tr{
+  background: #ffffff1a;
+}
+
+.icon {
+  margin-left: 5px;
+  width: 16px;
+}
+.user-bg{
+  background: #ffffff26;
+  height: 16px;
+}
+.header-top h6{
+ color: #ffff;
+}
+.bg-clip{
+    background: #D9D9D917;
+    clip-path: polygon(0% 0%, 100% 0%, 88% 100%, 12% 100%);
+    height: 5rem;
+    width: 40rem;
+}
+.bg-clip img{
+  height: 22px;
+  width: 22px;
+}
+.bg-clip h6{
+  font-size: 14px;
+  font-weight: 400;
+}
+.border-white{
+  --bs-border-opacity: 0.6 !important;
+}
+.polygon{
+  border-radius: 0px 0px 30px 30px;
+    background: #D9D9D917;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 120px;
+    margin-right: -10px;
+    height: 20px;
+}
+.polygon img{
+  width: 12px;
+}
+.gif img{
+  mix-blend-mode: exclusion;
+  width: 122px;
+  height: 122px;
+}
+.author{
+  width: 68px;
+  height: 68px;
+}
+.notification{
+  position: absolute;
+    right: 149px;
+    margin-top: 17px;
+}
+.notif-dot{
+  background-color: #FF7A00;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  margin-left: -53px;
+  position: absolute;
+  top: 45px;
+}
+.bg-shadow{
+  background-color: #FFFFFF21;
+}
+.button-grad{
+  background: linear-gradient(270deg, rgba(255, 149, 52, 0) 0%, #FF9534 50.98%, rgba(255, 149, 52, 0) 100%);
+    height: 4px;
+    width: 100%;
+}
+.footer img{
+  mix-blend-mode: screen;
+}
+.element{
+  position: absolute;
+  margin-top: -124px;
+    margin-left: 63px;
+    width: 36px;
+}
+.width-164{
+  width: 164px;
+}
+.element2{
+  position: absolute;
+  margin-top: 61px;
+  margin-left: -100px;
+  width: 40px;
+}
+.mt-10{
+  margin-top: -10px;
+}
+.bg-td{
+  background: #FFFFFF21 !important;
+}
+.padding-start{
+  padding-left: 181px !important;
+}
+.hover-asset{
+  margin-left: -165px;
+  margin-top: 0px;
+  position: absolute;
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+.rotate-img:hover .hover-asset{
+  transform: rotate(53deg);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+@media (max-width: 425px) {
+  .notched-corner{
+    width: 342px !important;
+  }
+}
