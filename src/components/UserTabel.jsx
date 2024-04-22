@@ -40,8 +40,8 @@ function UserTable() {
             <div className="button-grad"></div>
           </div>
         </div>
-        <div>
-          <img src="/images/tick.svg" className="icn" alt="Arrow" />{" "}
+        <div className="d-flex align-items-center">
+          <img src="/images/tick.svg" className="icn me-2" alt="Arrow" />{" "}
           <span className="text-white">Pending</span>
         </div>
       </div>
