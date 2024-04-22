@@ -44,6 +44,13 @@ function UserTable() {
           <img src="/images/tick.svg" className="icn me-2" alt="Arrow" />{" "}
           <span className="text-white">Pending</span>
         </div>
+        <div className="me-3 m-auto">
+          <div className="bg-shadow pe-5 ps-2 cursor-pointer">
+            <div className=" py-2 pe-5 ps-2 text-white">
+             + Add User
+            </div>
+          </div>
+        </div>
       </div>
       <table className="text-white table-style">
         <thead className="tr-bg">
