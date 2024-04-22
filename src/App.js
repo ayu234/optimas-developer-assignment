@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import React, { useState } from 'react';
 import LoginForm from './components/LoginForm';
-import Table from './components/Table';
+import UserTable from './components/UserTabel';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="app">
       {isLoggedIn && <Header />}
-      {isLoggedIn ? <Table /> : <LoginForm onLogin={handleLogin} />}
+      {isLoggedIn ? <UserTable /> : <LoginForm onLogin={handleLogin} />}
       {isLoggedIn && <Footer />}
     </div>
   );

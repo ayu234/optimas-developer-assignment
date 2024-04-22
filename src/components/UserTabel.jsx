@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function Table() {
+function UserTable() {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
@@ -120,4 +120,4 @@ function Table() {
   );
 }
 
-export default Table;
+export default UserTable;
